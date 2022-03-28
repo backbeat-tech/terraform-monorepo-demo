@@ -15,7 +15,7 @@ resource "local_file" "this" {
     server ${count.index+1}
     ========
     subnet_id ${var.subnet_id}
-    module version 1
+    module version 2
 
 EOF
 }
