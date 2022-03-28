@@ -9,11 +9,11 @@ resource "local_file" "this" {
     network
     =======
     cidr_block ${var.cidr_block}
-    module version 2
+    module version 3
 
 EOF
 }
 
 output "subnet_id" {
-  value = "v2_subnet_id"
+  value = "v3_subnet_id"
 }
